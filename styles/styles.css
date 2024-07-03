@@ -157,4 +157,11 @@ svg * {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+:root {
+  --blue-dark: #0C257A;
+  --blue: #4C70AD;
+  --blue-light: #66B5FC;
+  --brown: #9E7B4C;
+  --beige: #E6B268;
 }/*# sourceMappingURL=styles.css.map */
