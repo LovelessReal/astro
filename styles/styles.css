@@ -6,6 +6,21 @@
   font-style: normal;
   font-display: swap;
 }
+body {
+  font-family: YsabeauOffice, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.light-theme {
+  background-color: var(--blue-light);
+  color: var(--beige);
+}
+
+.dark-theme {
+  background-color: var(--dark-blue);
+  color: var(--brown);
+}
+
 /**
   Нормализация блочной модели
  */
@@ -164,12 +179,4 @@ svg * {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-:root {
-  --blue-dark: #0C257A;
-  --blue-dark-alt: #4C70AD;
-  --blue-light: #66B5FC;
-  --brown: #9E7B4C;
-  --beige: #E6B268;
-  --border: 1px solid var(--beige) ;
 }/*# sourceMappingURL=styles.css.map */
